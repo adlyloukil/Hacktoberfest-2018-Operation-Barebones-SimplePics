@@ -12,6 +12,12 @@ body {
 .row, .col{
 	padding: 0 !important;
 }
+.banner
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
