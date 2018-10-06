@@ -9,7 +9,9 @@ body {
     width: 33.33%;
     padding: 5px;
 }
-
+.row, .col{
+	padding: 0 !important;
+}
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
