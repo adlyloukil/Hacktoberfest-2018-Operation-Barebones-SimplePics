@@ -18,9 +18,3 @@ body {
     clear: both;
     display: table;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
