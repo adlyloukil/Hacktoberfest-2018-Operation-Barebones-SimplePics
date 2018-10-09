@@ -1,29 +1,27 @@
-var body = document.body;
-var modal = document.getElementById("myModal");
-var i;
-//var modalDiv = document.getElementById
-var img = document.getElementsByClassName("img-fluid");
-var modalImg = document.getElementById("img01");
+"use strict";
 
- for(i=0;i< img.length;i++)
-   {
-    img[i].onclick = function(){
+const modal = document.getElementById("myModal");
 
+//const modalDiv = document.getElementById
+const img = document.getElementsByClassName("img-fluid");
+const modalImg = document.getElementById("img01");
+
+let i;
+let imagesLength = img.length;
+
+for (i = 0; i < imagesLength; i++) {
+  img[i].onclick = function() {
     modal.style.display = "block";
-       modalImg.src = this.src;
-
-    body.style.overflow = "hidden";
- }
+    modalImg.src = this.src;
+  };
 }
 
-var span = document.getElementsByClassName("close")[0];
-
+const span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
-   modal.style.display = "none";
-   body.style.overflow = "";
-}
+  modal.style.display = "none";
+};
+
 modal.ondblclick = function() {
-    modal.style.display = "none";
-   body.style.overflow = "";
-}
+  modal.style.display = "none";
+};
