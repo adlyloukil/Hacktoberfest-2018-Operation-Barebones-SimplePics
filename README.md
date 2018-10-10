@@ -1,6 +1,9 @@
-# Hacktoberfest-2018-Operation-Barebones-SimplePics
-Hacktoberfest 2018 Create a single Landing Page with 9 images a title and a white background
-.
+# SimplePics
+## Created during Hacktoberfest 2018
+### Task was to create a single landing Page with 9 images a title and a white background
+
+![Screenshot of repository progress](https://user-images.githubusercontent.com/22683645/46754953-c3291400-ccbb-11e8-8c18-8729ea01f618.PNG)
+
  * [css](./css)
    * [Style.css](./css/Style.css)
  * [favicon.ico](./favicon.ico)
