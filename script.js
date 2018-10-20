@@ -13,6 +13,7 @@ for (i = 0; i < imagesLength; i++) {
   img[i].onclick = function() {
     modal.style.display = "block";
     modalImg.src = this.src;
+    const body = (document.querySelector("body").style.overflow = "hidden");
   };
 }
 
