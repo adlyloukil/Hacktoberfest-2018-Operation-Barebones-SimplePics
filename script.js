@@ -3,7 +3,7 @@
 const modal = document.getElementById("myModal");
 
 //const modalDiv = document.getElementById
-const img = document.getElementsByClassName("img-fluid");
+const img = document.getElementsByClassName("img-f");
 const modalImg = document.getElementById("img01");
 
 let i;
